@@ -41,4 +41,4 @@ def novocadastro():
     idade = dados.leiaidade('Idade: ')
     with open('ex115/banco.txt', 'a') as banco:
         banco.write(f'{nome}\t\t\t\t\t{idade} anos')
-    print(f'Registro de {nome} foi cadastrado! ')
+    print(f'Registro de {nome} foi cadastrado!')
